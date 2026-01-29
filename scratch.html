@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎁 Scratch & Win Your Prize!</title>
+    <link rel="stylesheet" href="scratch-style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="wScratchpad.min.js"></script>
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <h1 class="main-title">
+            <span class="emoji-icon">🎁</span>
+            Scratch Your Prize
+            <span class="emoji-icon">✨</span>
+        </h1>
+        <p class="subtitle">Scratch the card to reveal your amazing prize!</p>
+    </header>
+
+    <!-- Main Container -->
+    <main class="scratch-container">
+        <div class="card-wrapper">
+            <div class="card-instructions">
+                <h2>🖐️ How to Play</h2>
+                <p>Use your mouse or finger to scratch the silver coating and reveal your prize!</p>
+            </div>
+            
+            <div id="card"></div>
+            
+            <div class="prize-info">
+                <p>🍀 Good Luck! 🍀</p>
+            </div>
+        </div>
+
+        <div class="back-button-container">
+            <a href="index.html" class="back-button">
+                ← Back to Wheel
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>🎮 Congratulations on your win! 🏆</p>
+    </footer>
+
+    <!-- <script src="scratch.js"></script> -->
+    <script src="scratch-with-images.js"></script>
+</body>
+
+</html>
